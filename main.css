@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #203A43;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    font-family: "Juice ITC", serif;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container h1 {
+    color: #99f2c8;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+li {
+    display: inline-block;
+    font-size: 16px;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    color: #3b8d99;
+    border: 1px solid #3b8d99;
+    width: 100px;
+}
+
+li span {
+    display: block;
+    font-size: 55px;
+}
